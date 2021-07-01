@@ -1,0 +1,44 @@
+<!--Using the var and let keywords, create a question and answer sheet using 1 to 9 and the basic arithmetic operators.
+Eight questions in all. For each question, let there be a button beneath to display the answer when clicked.-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Review Project</title>
+</head>
+<body>
+<h2>Review Project</h2>
+<h3>Answer each of the questions below.</h3>
+<p id="pre"></p>
+<button type="button" onclick="document.getElementById('pre').innerHTML='What is 2+3?'">Question 1</button>
+<button type="button" onclick="document.getElementById('pre').innerHTML=z">Answer</button>
+<script>
+var x=2;
+var y=3;
+var z=x+y;
+</script>
+<p id="pri"></p>
+<button type="button" onclick="document.getElementById('pri').innerHTML='What is 4x0?'">Question 2</button>
+<button type="button" onclick="document.getElementById('pri').innerHTML=4*0">Answer</button>
+<script>
+var x=4;
+var y=0;
+var z=x*y;
+</script>
+<p id="pray"></p>
+<button type="button" onclick="document.getElementById('pray').innerHTML='What is 10÷5?'">Question 3</button>
+<button type="button" onclick="document.getElementById('pray').innerHTML='10'/'5'">Answer</button>
+<script>
+var x=10;
+var y=5;
+var z=x/y;
+</script>
+<p id="prey"></p>
+<button type="button" onclick="document.getElementById('prey').innerHTML='What is 10-5?'">Question 4</button>
+<button type="button" onclick="document.getElementById('prey').innerHTML='10'-'5'">Answer</button>
+<script>
+var x=10;
+var y=5;
+var z=x-y;
+</script>
+</body>
+</html>
